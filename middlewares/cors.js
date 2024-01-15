@@ -3,9 +3,8 @@
 const allowedCors = [
   'localhost:3000',
   'http://localhost:3000',
-  'http://localhost:3001',
-  // 'https://agolubtsova.mesto.nomoredomainsmonster.ru',
-  // 'http://agolubtsova.mesto.nomoredomainsmonster.ru',
+  // 'https://agolubtsova.movies.nomoredomainsmonster.ru',
+  // 'http://agolubtsova.movies.nomoredomainsmonster.ru',
 ];
 
 /** Простые CORS-запросы */
