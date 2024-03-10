@@ -50,7 +50,7 @@ module.exports.createMovie = (req, res, next) => {
 };
 
 module.exports.deleteMovie = (req, res, next) => {
-  const { movieId } = req.params._id;
+  const { movieId } = req.params;
   Movie.findById(movieId)
     .orFail(() => {
       next(new NotFoundError('Карточка по данному id не найдена'));
