@@ -14,6 +14,23 @@
 * согласно выбранному жанру найти все подходящие фильмы и отобразить карточки с ними;
 * когда пользователь сохраняет фильм, он должен отображаться в специальном разделе сайта.
 
+### Используемые технологии
+- Node.js;
+- nodemon;
+- Express;
+- cookie-parser;
+- MongoDB;
+- mongoose;
+- bcryptjs;
+- jsonwebtoken;
+- celebrate;
+- validator;
+- express-rate-limit;
+- helmet;
+- winston;
+- express-winston;
+- ESLint;
+
 ### Ссылки на проект
 
 IP-адрес 158.160.136.58
